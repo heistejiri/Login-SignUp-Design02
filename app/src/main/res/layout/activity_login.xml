@@ -32,5 +32,58 @@
             android:layout_marginTop="15dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UserName"
+                android:layout_marginTop="8dp"
+                android:textSize="22sp"
+                android:textColor="#6c5DD2"
+                android:textStyle="bold"
+                android:layout_marginStart="32dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/background_edit"
+                android:hint="Enter Your UserName"
+                android:textColorHint="#707070"
+                android:textColor="#707070"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Textw" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
